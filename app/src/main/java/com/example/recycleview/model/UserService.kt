@@ -4,6 +4,7 @@ import com.github.javafaker.Faker
 import java.util.Collections
 
 
+<<<<<<< HEAD
 typealias UsersListener = (users:List<UserData>) -> Unit
 
 class UserService {
@@ -11,6 +12,11 @@ class UserService {
 
     private var listeners = mutableListOf<UsersListener>()
 
+=======
+class UserService {
+
+
+>>>>>>> a61dbb2 (Initial commit)
     private var users = mutableListOf<UserData>()
 
     init {
@@ -27,6 +33,7 @@ class UserService {
         return users
     }
 
+<<<<<<< HEAD
     fun removeUser (user:UserData) {
         val indexToDelete = users.indexOfFirst { it.id == user.id }
         if (indexToDelete != -1) {
@@ -58,5 +65,11 @@ class UserService {
     private fun notifyChanges(){
         listeners.forEach { it.invoke(users) }
     }
+=======
+
+
+
+
+>>>>>>> a61dbb2 (Initial commit)
 
 }

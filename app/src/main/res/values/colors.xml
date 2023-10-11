@@ -3,4 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="milk_grey">#BFB4B4</color>
+<<<<<<< HEAD
+=======
+    <color name="light_blue">#8ACDED</color>
+>>>>>>> a61dbb2 (Initial commit)
 </resources>
